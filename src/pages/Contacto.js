@@ -9,9 +9,9 @@ function contacto() {
             <Navigation />
 
             <div className="text-center">
-                <h1 className="text-red-600 text-6xl m-6 font-bold">Contacto</h1>
+                <h1 className="text-red-600 text-4xl sm:text-4xl md:text-6xl lg:text-8xl m-6 font-bold">Contacto</h1>
             </div>
-            <div className="m-4 grid grid-cols-2 ptext-4xl sm:text-4xl md:text-6xl lg:text-8xl lace-items-center">
+            <div className="m-4 grid grid-cols-2 place-items-center">
                 <div className="">
                     <p>
                         <b className = {tit}>
