@@ -1,18 +1,20 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
-
 import logo from '../imgs/53139474_101025971061399_6126230540858163200_n.jpg'
-function contacto() {
+
+function ContactoGerente() {
     const tit = "text-cyan-600"
     return (
         <>
             <Navigation />
-
             <div className="text-center">
-                <h1 className="text-red-600 text-6xl m-6 font-bold">Contacto</h1>
+                <h1 className="text-red-600 text-4xl sm:text-4xl md:text-6xl lg:text-8xl m-6 font-bold">Gerencia</h1>
             </div>
-            <div className="m-4 grid grid-cols-2 ptext-4xl sm:text-4xl md:text-6xl lg:text-8xl lace-items-center">
+            <div className="m-4 grid grid-cols-2 place-items-center">
                 <div className="">
+                    <b className = {tit}>
+                        Cinthya González Corral
+                    </b>
                     <p>
                         <b className = {tit}>
                             Ubicación:
@@ -26,15 +28,11 @@ function contacto() {
                     </p>
                     <p>
                         <b className = {tit}>Teléfono celular:</b><b className = {tit}> </b>
-                        (222) 217-12-50 / (222) 323-32-62
+                        (222) 217-00-88
                     </p>
                     <p>
                         <b className = {tit}>Correo:</b><b className = {tit}> </b>
-                        administracion@seguroscorval.net
-                    </p>
-                    <p>
-                        <b className={tit}>Facebook:</b><b> </b>
-                        Corval Seguros
+                        gerencia@seguroscorval.net
                     </p>
                 </div>
                 <div className="">
@@ -46,8 +44,7 @@ function contacto() {
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.050206647114!2d-98.20027098586274!3d19.017509187121483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc098221dde25%3A0x978b06c86e170620!2sC.%2018%20Sur%204524%2C%2022%20de%20Septiembre%2C%2072560%20Puebla%2C%20Pue.!5e0!3m2!1ses-419!2smx!4v1641617630758!5m2!1ses-419!2smx" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" className='mt-6 w-screen'></iframe>
 
         </>
-
-   )
+    )
 }
 
-export default contacto
+export default ContactoGerente

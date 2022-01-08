@@ -5,6 +5,8 @@ import Abouts from './pages/Abouts'
 import Contacto from './pages/Contacto'
 import Servicios from './pages/Servicios'
 import AvisoPrivacidad from './pages/AvisoPrivacidad'
+import ContactoGerente from './pages/ContactoGerente'
+import ContactoDireccion from './pages/ContactoDireccion'
 
 
 
@@ -17,6 +19,8 @@ function Rutas() {
                 <Route path = '/contacto' element = {<Contacto/>} />
                 <Route path = '/servicios' element = {<Servicios/>} />
                 <Route path = '/avisoprivacidad' element = {<AvisoPrivacidad/>} />
+                <Route path = 'contacto-gerencia' element = {<ContactoGerente />}/>
+                <Route path = 'contacto-direccion' element = {<ContactoDireccion />}/>
             </Routes>
         </BrowserRouter>
     )
