@@ -24,7 +24,7 @@ function ContactoGerente() {
                     </p>
                     <p>
                         <b className = {tit}>Teléfono de oficina:</b> <b className = {tit}> </b>
-                        (222) 298-72-98 / 99
+                        (222) 298-72-98
                     </p>
                     <p>
                         <b className = {tit}>Teléfono celular:</b><b className = {tit}> </b>
