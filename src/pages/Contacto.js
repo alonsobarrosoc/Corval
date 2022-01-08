@@ -1,9 +1,11 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
+import { Link } from 'react-router-dom'
 
 import logo from '../imgs/53139474_101025971061399_6126230540858163200_n.jpg'
 function contacto() {
     const tit = "text-cyan-600"
+    const cont = "bg-cyan-600 text-white rounded-xl m-6 p-2 text-2xl"
     return (
         <>
             <Navigation />
@@ -45,7 +47,19 @@ function contacto() {
             
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.050206647114!2d-98.20027098586274!3d19.017509187121483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc098221dde25%3A0x978b06c86e170620!2sC.%2018%20Sur%204524%2C%2022%20de%20Septiembre%2C%2072560%20Puebla%2C%20Pue.!5e0!3m2!1ses-419!2smx!4v1641617630758!5m2!1ses-419!2smx" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" className='mt-6 w-screen'></iframe>
 
+            <Link to ='/contacto-gerencia'>
+                <button className={cont}>
+                    Gerencia
+                </button>
+            </Link>
+            <Link to = '/contacto-direccion'>
+                <button className={cont}>
+                    Dirección
+                </button>
+            </Link>
+
         </>
+
 
    )
 }
