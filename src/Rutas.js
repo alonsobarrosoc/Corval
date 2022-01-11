@@ -7,6 +7,8 @@ import Servicios from './pages/Servicios'
 import AvisoPrivacidad from './pages/AvisoPrivacidad'
 import ContactoGerente from './pages/ContactoGerente'
 import ContactoDireccion from './pages/ContactoDireccion'
+import Antecedentes from './pages/Antecedentes'
+import SociosComerciales from './pages/SociosComerciales'
 
 
 
@@ -19,8 +21,10 @@ function Rutas() {
                 <Route path = '/contacto' element = {<Contacto/>} />
                 <Route path = '/servicios' element = {<Servicios/>} />
                 <Route path = '/avisoprivacidad' element = {<AvisoPrivacidad/>} />
-                <Route path = 'contacto-gerencia' element = {<ContactoGerente />}/>
-                <Route path = 'contacto-direccion' element = {<ContactoDireccion />}/>
+                <Route path = '/contacto-gerencia' element = {<ContactoGerente />}/>
+                <Route path = '/contacto-direccion' element = {<ContactoDireccion />}/>
+                <Route path = '/antecedentes' element = {<Antecedentes/>}/>
+                <Route path = 'socios-comerciales' element = {<SociosComerciales/>}/>
             </Routes>
         </BrowserRouter>
     )

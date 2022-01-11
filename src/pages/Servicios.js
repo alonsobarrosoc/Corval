@@ -47,7 +47,7 @@ function servicios() {
                             ➤ Energía / Obra civil / Montaje / Pólizas de operación
                         </li>
                         <li>
-                            ➤ Finanzas
+                            ➤ Fianzas
                         </li>
                     </ul>
                 </div>

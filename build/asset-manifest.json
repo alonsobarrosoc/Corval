@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.b7b2d460.css",
-    "main.js": "/static/js/main.7d027356.js",
+    "main.css": "/static/css/main.c9055fa4.css",
+    "main.js": "/static/js/main.b7384d45.js",
     "static/js/787.d6f0c6f0.chunk.js": "/static/js/787.d6f0c6f0.chunk.js",
     "static/media/images.jpeg": "/static/media/images.7b04dede038b9bb1f155.jpeg",
+    "static/media/cs.jpg": "/static/media/cs.7583e79b55764b7e1173.jpg",
+    "static/media/mapfre.png": "/static/media/mapfre.bb902f92dfbf0b382153.png",
     "static/media/gar.png": "/static/media/gar.fba78b0d8ce2b3147d04.png",
     "static/media/mision.png": "/static/media/mision.f0715a1aab08c00c20ea.png",
     "static/media/53139474_101025971061399__n.jpg": "/static/media/53139474_101025971061399_6126230540858163200_n.886fbfb56fe54a5cf04e.jpg",
     "static/media/valores.png": "/static/media/valores.a2a6c1d580d87222b320.png",
     "static/media/objetivo.png": "/static/media/objetivo.a9d36710475c0b91e640.png",
     "static/media/vision.png": "/static/media/vision.0053a52249c142416952.png",
+    "static/media/aig.png": "/static/media/aig.aacddc392abd67333141.png",
+    "static/media/hiscox.png": "/static/media/hiscox.5e00f7cf4c8ede83a76c.png",
     "index.html": "/index.html",
-    "main.b7b2d460.css.map": "/static/css/main.b7b2d460.css.map",
-    "main.7d027356.js.map": "/static/js/main.7d027356.js.map",
+    "main.c9055fa4.css.map": "/static/css/main.c9055fa4.css.map",
+    "main.b7384d45.js.map": "/static/js/main.b7384d45.js.map",
     "787.d6f0c6f0.chunk.js.map": "/static/js/787.d6f0c6f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7b2d460.css",
-    "static/js/main.7d027356.js"
+    "static/css/main.c9055fa4.css",
+    "static/js/main.b7384d45.js"
   ]
 }

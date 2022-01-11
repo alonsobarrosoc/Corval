@@ -18,7 +18,7 @@ function ContactoDireccion() {
                     </b>
                     <b className=''>
                         <br />
-                        Broker de Seguros y Finanzas
+                        Broker de Seguros y Fianzas
                     </b>
                     <p>
                         <b className={tit}>
